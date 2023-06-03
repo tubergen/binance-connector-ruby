@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'faraday'
+gem 'faraday', '>= 2.0'
 gem 'websocket-eventmachine-client'
 
 group :dev do
